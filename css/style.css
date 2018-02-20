@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    background: #000;
+    font-family: 'Gravity';
+    font-weight: bolder;
+    overflow: hidden;
+}
+
+.banner {
+    position: absolute;
+    width: 100%;
+    height: 59%;
+    overflow: hidden;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/dark-background-with-star-like-dots_bkpaotdgh__F0000.png");
+}
+
+.title {
+    opacity: 0.7;
+    z-index: 10;
+    position: absolute;
+    top: 33%;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-size: 140px;
+    color: #fff;
+    background-size: cover; 
+    /* background-attachment: initial;
+    background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/dark-background-with-star-like-dots_bkpaotdgh__F0000.png");
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */ 
+}
+
+.title-highlight {
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 80);
+    padding: 20px 30px 20px 40px;
+}
+
+
+
+.video-container {
+    opacity: 0.5;
+    width: 100%;
+    position: relative;
+}
+
+#section2 {
+    height: 100%;
+}
+.videolist {
+    color: white;
+    overflow: auto;
+    white-space: nowrap;
+    display: inline-block;
+    position: absolute;
+    align-items: center;
+    top: 54%;
+}
+
