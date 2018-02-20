@@ -1,9 +1,14 @@
 body {
     margin: 0;
     background: #000;
-    font-family: 'Gravity';
+    font-family: "Gravity";
     font-weight: bolder;
     overflow: hidden;
+}
+
+@font-face {
+    font-family: "Gravity";
+    src: url("./fonts/Gravity.ttf");
 }
 
 .banner {
